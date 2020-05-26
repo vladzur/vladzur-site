@@ -34,7 +34,7 @@
     </v-app-bar>
     <v-content>
       <v-container fluid>
-        <nuxt />
+        <router-view />
       </v-container>
     </v-content>
     <v-footer
