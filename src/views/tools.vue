@@ -1,14 +1,14 @@
 <template>
-  <v-layout>
-    <v-row>
-      <v-col>
+  <v-container fluid>
+    <v-row align="stretch">
+      <v-col lg=6>
         <Timestamp />
       </v-col>
-      <v-col>
+      <v-col lg=6>
         <Base64 />
       </v-col>
     </v-row>
-  </v-layout>
+  </v-container>
 </template>
 
 <script>

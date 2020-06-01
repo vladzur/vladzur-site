@@ -4,7 +4,7 @@
       Base 64 encoder
     </v-card-title>
     <v-card-text>
-      <v-textarea v-model="textInput" />
+      <v-textarea outlined v-model="textInput" />
       <p>
         {{ textOutput }}
       </p>
