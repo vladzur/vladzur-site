@@ -1,3 +1,4 @@
+![Build and Deploy](https://github.com/vladzur/vladzur-site/workflows/Build%20and%20Deploy/badge.svg)
 # vladzur-web
 
 ## Project setup
