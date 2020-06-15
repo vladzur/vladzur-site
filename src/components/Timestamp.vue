@@ -1,5 +1,5 @@
 <template>
-  <v-layout>
+<v-container>
     <v-card>
       <v-card-title>Timestamp converter</v-card-title>
       <v-card-text>
@@ -7,19 +7,19 @@
         <h2>{{ dateOutput }}</h2>
       </v-card-text>
     </v-card>
-  </v-layout>
+</v-container>
 </template>
 
 <script>
 import moment from 'moment'
 
 export default {
-  data () {
-    return {
+  data: () => (
+    {
       timestampInput: 0,
       dateinput: ''
     }
-  },
+  ),
   computed: {
     dateOutput () {
       const timestamp = this.timestampInput * 1000

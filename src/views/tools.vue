@@ -1,13 +1,7 @@
 <template>
   <v-container fluid>
-    <v-row align="stretch">
-      <v-col lg=6>
-        <Timestamp />
-      </v-col>
-      <v-col lg=6>
-        <Base64 />
-      </v-col>
-    </v-row>
+    <Timestamp />
+    <Base64 />
   </v-container>
 </template>
 

@@ -48,8 +48,8 @@
 
 <script>
 export default {
-  data () {
-    return {
+  data: () => (
+    {
       clipped: true,
       drawer: false,
       fixed: false,
@@ -75,6 +75,6 @@ export default {
       rightDrawer: false,
       title: 'Vladzur'
     }
-  }
+  )
 }
 </script>
