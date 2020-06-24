@@ -32,11 +32,11 @@
       <v-toolbar-title v-text="title" />
       <v-spacer />
     </v-app-bar>
-    <v-content>
+    <v-main>
       <v-container fluid>
         <router-view />
       </v-container>
-    </v-content>
+    </v-main>
     <v-footer
       :fixed="fixed"
       app
