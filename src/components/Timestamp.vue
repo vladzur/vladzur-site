@@ -1,13 +1,17 @@
 <template>
-<v-container>
+  <v-container>
     <v-card>
       <v-card-title>Timestamp converter</v-card-title>
       <v-card-text>
-        <v-text-field outlined v-model="timestampInput" label="Enter timestamp" />
+        <v-text-field
+          v-model="timestampInput"
+          outlined
+          label="Enter timestamp"
+        />
         <h2>{{ dateOutput }}</h2>
       </v-card-text>
     </v-card>
-</v-container>
+  </v-container>
 </template>
 
 <script>

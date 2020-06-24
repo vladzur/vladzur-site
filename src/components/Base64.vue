@@ -1,28 +1,34 @@
 <template>
-<v-container>
-  <v-card>
-    <v-card-title>
-      Base 64 encoder
-    </v-card-title>
-    <v-card-text>
-      <v-textarea outlined v-model="textInput" />
-      <p>
-        {{ base64Output }}
-      </p>
-    </v-card-text>
-  </v-card>
-  <v-card>
-    <v-card-title>
-      Base 64 decoder
-    </v-card-title>
-    <v-card-text>
-      <v-textarea outlined v-model="base64Input" />
-      <p>
-        {{ textOutput }}
-      </p>
-    </v-card-text>
-  </v-card>
-</v-container>
+  <v-container>
+    <v-card>
+      <v-card-title>
+        Base 64 encoder
+      </v-card-title>
+      <v-card-text>
+        <v-textarea
+          v-model="textInput"
+          outlined
+        />
+        <p>
+          {{ base64Output }}
+        </p>
+      </v-card-text>
+    </v-card>
+    <v-card>
+      <v-card-title>
+        Base 64 decoder
+      </v-card-title>
+      <v-card-text>
+        <v-textarea
+          v-model="base64Input"
+          outlined
+        />
+        <p>
+          {{ textOutput }}
+        </p>
+      </v-card-text>
+    </v-card>
+  </v-container>
 </template>
 
 <script>
