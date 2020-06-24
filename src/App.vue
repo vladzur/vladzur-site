@@ -52,7 +52,6 @@ export default {
     {
       clipped: true,
       drawer: false,
-      fixed: false,
       items: [
         {
           icon: 'mdi-apps',
@@ -70,10 +69,7 @@ export default {
           to: '/about'
         }
       ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vladzur Site'
+      title: 'Vladzur'
     }
   )
 }
