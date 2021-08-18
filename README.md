@@ -1,5 +1,5 @@
-# vladzursite
-
+# Vladzur Site
+[![Build and Deploy](https://github.com/vladzur/vladzur-site/actions/workflows/automation.yml/badge.svg)](https://github.com/vladzur/vladzur-site/actions/workflows/automation.yml)
 ## Project setup
 ```
 npm install
