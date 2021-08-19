@@ -3,8 +3,8 @@
   <div class="card-image">
     <figure class="image is-square">
       <img
-        src="/img/descarga.png"
-        alt="Banner Descarga"
+        src="/img/Universum.jpg"
+        alt="Arte de disco"
       >
     </figure>
   </div>
@@ -13,33 +13,27 @@
       <div class="media-left">
         <figure class="image is-48x48">
           <img
-            src="/img/logo_portaldisc.png"
-            alt="Logo Portaldisc"
+            src="/img/bandcamp_logo.png"
+            alt="Logo Bandcamp"
           >
         </figure>
       </div>
-      <div class="media-content">
-        <p class="title is-4">Portaldisc</p>
+      <div class="media-content" >
+        <p class="title is-4">Bandcamp</p>
         <p class="subtitle is-6">@vladzur</p>
       </div>
     </div>
 
     <div class="content">
-      Puedes descargar, escuchar ,compartir o hacer un aporte en
+      Puedes comprar el disco y hacer tu valioso aporte en
       <a
-        href="https://www.portaldisc.com/gratis.php?id=29273"
+        href="https://vladzur.bandcamp.com/releases"
         rel="noopener"
         target="_blank"
       >
-        Portaldisc
+        Bandcamp
       </a>
     </div>
   </div>
 </div>
 </template>
-
-<style lang="scss" scoped>
-.clickable {
-  cursor: pointer;
-}
-</style>

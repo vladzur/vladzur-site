@@ -14,11 +14,14 @@
 <section class="section">
   <div class="container is-dark">
     <div class="columns">
-      <div class="column is-half">
+      <div class="column">
         <spotify />
       </div>
-      <div class="column is-half">
+      <div class="column">
         <portaldisc />
+      </div>
+      <div class="column">
+        <bandcamp />
       </div>
     </div>
   </div>
@@ -27,9 +30,10 @@
 <script>
 import Spotify from '@/components/Music/Spotify.vue';
 import Portaldisc from '@/components/Music/Portaldisc.vue';
+import Bandcamp from '@/components/Music/Bandcamp.vue';
 
 export default {
-  components: { Spotify, Portaldisc },
+  components: { Bandcamp, Spotify, Portaldisc },
 };
 
 </script>
