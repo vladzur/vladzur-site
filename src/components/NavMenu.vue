@@ -1,8 +1,15 @@
 <template>
-  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-dark"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <div class="navbar-item">
-        <img src="/img/Vladzur.png">
+        <img
+          src="/img/Vladzur.png"
+          alt="Vladzur logo"
+        >
       </div>
       <a
         role="button"
@@ -17,15 +24,26 @@
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div
+      id="navbarBasicExample"
+      class="navbar-menu"
+    >
       <div class="navbar-start">
-        <router-link class="navbar-item" active-class="is-active" to="/"
-          >Home</router-link
+        <router-link
+          class="navbar-item"
+          active-class="is-active"
+          to="/"
         >
+          Home
+        </router-link>
 
-        <router-link class="navbar-item" active-class="is-active" to="/about"
-          >About</router-link
+        <router-link
+          class="navbar-item"
+          active-class="is-active"
+          to="/about"
         >
+          About
+        </router-link>
       </div>
     </div>
   </nav>
