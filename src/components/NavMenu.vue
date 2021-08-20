@@ -17,6 +17,8 @@
         aria-label="menu"
         aria-expanded="false"
         data-target="navbarBasicExample"
+        @click="isMobile = !isMobile"
+        :class="{'is-active': isMobile}"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -27,6 +29,7 @@
     <div
       id="navbarBasicExample"
       class="navbar-menu"
+      :class="{'is-active': isMobile}"
     >
       <div class="navbar-start">
         <router-link
@@ -48,3 +51,17 @@
     </div>
   </nav>
 </template>
+
+<script>
+import { ref } from "vue";
+
+export default {
+  setup() {
+    const isMobile = ref(false);
+
+    return {
+      isMobile
+    }
+  },
+}
+</script>
