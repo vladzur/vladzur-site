@@ -2,11 +2,8 @@
   <section class="hero is-danger is-halfheight header-image">
   <div class="hero-body">
     <div class="container has-text-right">
-      <p class="title">
-        vladzur
-      </p>
       <p class="subtitle">
-        music - software
+        electronic - experimental - drone - dark ambient
       </p>
     </div>
   </div>
@@ -39,7 +36,7 @@ export default {
 </script>
 <style scoped>
 .header-image {
-    background-image: url("/img/background1.jpg");
+    background-image: url("/img/vladzur_banner.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
