@@ -36,7 +36,7 @@ export default {
 </script>
 <style scoped>
 .header-image {
-    background-image: url("/img/vladzur_banner.png");
+    background-image: url("/img/VladzurHeader.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
