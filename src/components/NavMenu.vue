@@ -43,9 +43,9 @@
         <router-link
           class="navbar-item"
           active-class="is-active"
-          to="/about"
+          to="/music"
         >
-          About
+          Music
         </router-link>
       </div>
     </div>
