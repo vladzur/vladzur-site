@@ -17,60 +17,17 @@
 
 <script>
 import Release from '@/components/Music/Release.vue'
+import { computed } from 'vue'
+import { useStore } from 'vuex'
+
 export default {
   components: {
     Release
   },
   setup() {
-    const releases = [
-      {
-      title: 'Universum',
-      image: '/img/Universum.jpg',
-      stores: [
-        {
-          name: 'Spotify',
-          url: 'https://open.spotify.com/album/0BN0xpxAHezGXl0pkpVlz3',
-        },
-        {
-          name: 'Apple Music',
-          url: 'https://music.apple.com/us/album/universum-ep/1578188575',
-        },
-        {
-          name: 'Deezer',
-          url: 'https://www.deezer.com/es/album/247118332',
-        },
-      ],
-    },
-    {
-      title: 'Domerita Torilca',
-      image: '/img/DomeritaTorilaca.jpg',
-      stores: [
-        {
-          name: 'Spotify',
-          url: 'https://open.spotify.com/album/0rwjpZx3zB2SygpRnHsVR8',
-        },
-        {
-          name: 'Apple Music',
-          url: 'https://music.apple.com/us/album/domerita-torilaca/1583701314',
-        },
-        {
-          name: 'Deezer',
-          url: 'https://www.deezer.com/es/album/255443772',
-        },
-      ],
-    },
-    {
-      title: 'Primitivos',
-      image: '/img/Primitivos.png',
-      stores: [
-        {
-          name: 'Proximamente',
-          url: 'https://onerpm.link/893925697370',
+    const store = useStore();
+    const releases = computed(() => store.getters.releases);
 
-        },
-      ],
-    }
-    ];
     return {
       releases,
     };
