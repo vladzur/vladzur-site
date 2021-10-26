@@ -11,14 +11,8 @@
 <section class="section">
   <div class="container is-dark">
     <div class="columns">
-      <div class="column">
-        <release :release="releases[0]"/>
-      </div>
-      <div class="column">
-        <release :release="releases[1]"/>
-      </div>
-      <div class="column">
-        <release :release="releases[2]"/>
+      <div class="column" v-for="release in releases" :key="release">
+        <release :release="release"/>
       </div>
     </div>
   </div>

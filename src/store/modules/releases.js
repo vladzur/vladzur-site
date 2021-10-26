@@ -1,6 +1,16 @@
 const state = {
   releases: [
     {
+      title: "Anomalies",
+      image: "/img/anomalies.jpg",
+      stores: [
+        {
+          name: "Próximamente (Noviembre, 13)",
+          url: "https://distrokid.com/hyperfollow/vladzur/anomalies"
+        },
+      ]
+    },
+    {
       title: "Primitivos",
       image: "/img/Primitivos.png",
       stores: [

@@ -14,7 +14,6 @@
       </div>
 
       <div class="content">
-        Puedes encontrarlo en:
         <ul v-for="store in release.stores" :key="store.name">
         <li><a
           :href="store.url"
