@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    Lanzamientos
+    Releases
     <div class="columns">
       <div class="column" v-for="release in releases" :key="release">
         <release :release="release"/>

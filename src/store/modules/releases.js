@@ -5,7 +5,7 @@ const state = {
       image: "/img/anomalies.jpg",
       stores: [
         {
-          name: "Próximamente (Noviembre, 13)",
+          name: "Coming soon (Nov.13)",
           url: "https://distrokid.com/hyperfollow/vladzur/anomalies"
         },
       ]
