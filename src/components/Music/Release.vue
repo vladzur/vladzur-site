@@ -1,8 +1,8 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-square">
-        <img :src="release.image" alt="Arte de disco" />
+      <figure class="image is-square is-clickable">
+        <img :src="release.image" alt="Arte de disco" @click="handleClick"/>
       </figure>
     </div>
     <div class="card-content">
@@ -30,6 +30,20 @@
 
 <script>
 export default {
-  props: ['release']
+  props: ['release'],
+  setup(props) {
+    const handleClick = () => {
+      window.open(props.release.stores[0].url, '_blank')
+    }
+    return {
+      handleClick
+    }
+  },
 }
 </script>
+
+<style lang="scss">
+.is-clickable {
+  cursor: pointer;
+}
+</style>
