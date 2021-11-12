@@ -5,9 +5,17 @@ const state = {
       image: "/img/anomalies.jpg",
       stores: [
         {
-          name: "Coming soon (Nov.13)",
-          url: "https://distrokid.com/hyperfollow/vladzur/anomalies"
+          name: "Spotify",
+          url: "https://open.spotify.com/album/6Rbg5pnTLEXZkCTkB3E6TC"
         },
+        {
+          name: "Apple Music",
+          url: "https://music.apple.com/us/album/anomalies/1591974001"
+        },
+        {
+          name: "Bandcamp",
+          url: "https://vladzur.bandcamp.com/album/anomalies"
+        }
       ]
     },
     {
