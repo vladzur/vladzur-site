@@ -1,6 +1,6 @@
 <template>
   <section class="hero is-danger is-halfheight header-image">
-  <div class="hero-body">
+  <div class="hero-body" @click="handleClick()">
     <div class="container has-text-right">
       <p class="subtitle">
         electronic - experimental - drone - dark ambient
@@ -28,9 +28,12 @@ export default {
   setup() {
     const store = useStore();
     const releases = computed(() => store.getters.releases);
-
+    const handleClick = () => {
+      window.open('https://open.spotify.com/artist/4OmG0CBF0fwStw2Hfl3eM9?si=hbHaOXtxSvG1C5i1EqPDvw', '_blank')
+    }
     return {
       releases,
+      handleClick
     };
   }
 };
